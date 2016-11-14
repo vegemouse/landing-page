@@ -157,7 +157,7 @@ button {
   border-radius: 100%;
   object-fit: fill;
   box-sizing: content-box;
-  padding: 20px;
+  padding: 10px;
 }
 
 .column h4 {
