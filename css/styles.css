@@ -265,6 +265,9 @@ button {
   button, #header p {
     top: 60%;
   }
+  #logo h2 {
+    display: none;
+  }
 }
 
 @media (max-width: 660px) {
@@ -280,12 +283,13 @@ button {
   button, #header p {
     top: 60%;
   }
-  #logo h2 {
-    display: none;
-  }
+
   #logo img {
     left: 20px;
     top: 10px;
+  }
+  #title {
+    top: 40%;
   }
 }
 
