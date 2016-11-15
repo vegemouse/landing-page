@@ -29,6 +29,24 @@ body {
   font-family: 'Raleway', sans-serif;
 
 }
+.triangle {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 50%;
+  height: 0px;
+  border-right: 25px solid transparent;
+  border-bottom: 25px solid white;
+}
+.triangle-right {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 50%;
+  height: 0px;
+  border-left: 25px solid transparent;
+  border-bottom: 25px solid white;
+}
 #logo img {
   width: 80px;
   height: 80px;
