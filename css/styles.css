@@ -320,17 +320,26 @@ button {
 
 @media (max-width: 550px) {
   #header {
-    height: 600px;
+    height: 550px;
   }
   .slant1, .slant2 {
     height: 2%;
   }
   button, #header p {
-    top: 35%;
+    top: 45%;
   }
   .column {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  #title h1 {
+    font-size: 2.6em;
+  }
+  #title h2 {
+    font-size: 1.2em;
+  }
+  #title {
+    max-width: 400px;
   }
   #logo img {
     left: 50%;
@@ -352,5 +361,17 @@ button {
   }
   #close:target + #responsiveMenu {
     display: none;
+  }
+}
+@media (max-width: 440px) {
+  #title h1 {
+    font-size: 2em;
+  }
+  #title h2 {
+    font-size: 0.9em;
+    border-bottom: 1px solid white;
+  }
+  #title {
+    max-width: 300px;
   }
 }
