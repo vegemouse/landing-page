@@ -3,6 +3,11 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
 #header {
   background-image: url("../img/wedding-background2.jpg");
   background-position: center;
@@ -21,14 +26,15 @@
   position: absolute;
   top: 45px;
   left: 150px;
+  font-family: 'Raleway', sans-serif;
 
 }
 #logo img {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   position: absolute;
   left: 50px;
-  top: 10px;
+  top: 20px;
 }
 #links {
   position: absolute;
@@ -64,6 +70,7 @@ li {
   margin-left: 30px;
   font-size: 0.8em;
   color: white;
+  font-family: 'Raleway', sans-serif;
 }
 li:hover {
   cursor: pointer;
@@ -83,12 +90,15 @@ li:hover {
 }
 #title h1 {
   font-size: 8.3em;
-  font-weight: lighter;
+  font-weight: 100;
+  font-family: 'Raleway', sans-serif;
 }
 #title h2 {
   font-size: 3.8em;
   border-bottom: 2px solid white;
   font-weight: lighter;
+  padding-bottom: 10px;
+  font-family: 'Raleway', sans-serif;
 }
 
 hr {
@@ -241,7 +251,7 @@ button {
     font-size: 4.2em;
   }
   #title h2 {
-    font-size: 2em;
+    font-size: 1.9em;
   }
   #title {
     max-width: 630px;
